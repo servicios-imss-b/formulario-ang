@@ -417,6 +417,7 @@
             white-space: nowrap;
         }
 
+        /* Columna fija 1: CLUES */
         .unidades-table th:nth-child(1),
         .unidades-table td:nth-child(1) {
             position: sticky;
@@ -426,6 +427,7 @@
             min-width: 100px;
         }
 
+        /* Columna fija 2: Unidad Medica */
         .unidades-table th:nth-child(2),
         .unidades-table td:nth-child(2) {
             position: sticky;
@@ -435,6 +437,7 @@
             min-width: 250px;
         }
 
+        /* Encabezados fijos */
         .unidades-table th:nth-child(1),
         .unidades-table th:nth-child(2) {
             background-color: #235B4E;
@@ -442,12 +445,14 @@
             z-index: 20;
         }
 
+        /* Fondo de las celdas fijas */
         .unidades-table td:nth-child(1),
         .unidades-table td:nth-child(2) {
             background-color: #f0f0f0;
             font-weight: bold;
         }
 
+        /* Sombra para la segunda columna fija */
         .unidades-table td:nth-child(2)::after,
         .unidades-table th:nth-child(2)::after {
             content: '';
@@ -496,6 +501,7 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.15);
         }
 
+        /* Fila que ya fue guardada en la base de datos */
         .unidades-table tr.fila-guardada-bd {
             background-color: #d4edda !important;
         }
@@ -961,7 +967,7 @@
     <script>
         let celdaEnEdicion = null;
         let tooltip = null;
-        let unidadesGuardadasMap = new Map();
+        let filasGuardadasBD = new Set();
 
         function crearTooltip() {
             if (!tooltip) {
@@ -1169,32 +1175,7 @@
             abrirFormulario(estadoSeleccionado);
         }
 
-        async function consultarUnidadesGuardadas() {
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbx2S2GlGwWcyxuQdS1fUCTsVns9VKGDHPvwkTIbQQPosWaSEKu4lFwcWcLExEmy4R9w/exec';
-
-            try {
-                const response = await fetch(scriptURL, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        accion: 'consultarTodas'
-                    })
-                });
-                const data = await response.json();
-                if (data.guardadas) {
-                    data.guardadas.forEach(item => {
-                        unidadesGuardadasMap.set(item.clues, true);
-                    });
-                }
-                console.log('Unidades guardadas en BD:', Array.from(unidadesGuardadasMap.keys()));
-            } catch(error) {
-                console.error('Error al consultar:', error);
-            }
-        }
-
-        async function abrirFormulario(estado) {
+        function abrirFormulario(estado) {
             document.getElementById('formEstado').innerHTML = `Cuestionario de Equipamiento - <strong>${estado}</strong>`;
             document.getElementById('userInfo').innerHTML = `
                 <strong>Registrado por:</strong> ${usuarioActual.nombre} | 
@@ -1202,20 +1183,6 @@
                 <strong>Entidad:</strong> ${usuarioActual.entidad}
             `;
             document.getElementById('formModal').classList.add('active');
-
-            const progressInfo = document.getElementById('progressInfo');
-            const loadingMsg = document.createElement('div');
-            loadingMsg.style.background = '#e3f2fd';
-            loadingMsg.style.padding = '8px';
-            loadingMsg.style.borderRadius = '8px';
-            loadingMsg.style.marginBottom = '10px';
-            loadingMsg.style.textAlign = 'center';
-            loadingMsg.innerHTML = 'Consultando unidades guardadas en la base de datos...';
-            progressInfo.appendChild(loadingMsg);
-
-            await consultarUnidadesGuardadas();
-
-            loadingMsg.remove();
 
             const progreso = verificarProgresoGuardado(estado, usuarioActual.email);
 
@@ -1266,6 +1233,7 @@
 
         function guardarUnidadEnNube(filaIndex, btnElement) {
             const unidad = datosActuales[filaIndex];
+            const claveUnidad = usuarioActual.email + '|' + unidad.clues_imb;
 
             btnElement.disabled = true;
             btnElement.textContent = 'Guardando...';
@@ -1285,47 +1253,40 @@
                 datosParaGuardar[col] = (valor !== null && valor !== undefined && !isNaN(valor) && valor !== 0 && valor !== '') ? valor : '';
             }
 
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbx2S2GlGwWcyxuQdS1fUCTsVns9VKGDHPvwkTIbQQPosWaSEKu4lFwcWcLExEmy4R9w/exec';
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx0OqRe5XyRm4UL0BsU8WhErU_PwvnNfo0uZTKnyfHCmV4qGfImIn8hjPaAjSHIn_33/exec';
 
             fetch(scriptURL, { 
                 method: 'POST', 
-                mode: 'cors',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
+                mode: 'no-cors',
+                headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(datosParaGuardar)
             })
-            .then(response => response.json())
-            .then(data => {
-                if (data.resultado === 'exito') {
-                    unidadesGuardadasMap.set(unidad.clues_imb, true);
-                    btnElement.disabled = false;
-                    btnElement.textContent = 'Guardado';
-                    btnElement.style.background = '#28a745';
+            .then(() => {
+                filasGuardadasBD.add(claveUnidad);
+                btnElement.disabled = false;
+                btnElement.textContent = 'Guardado';
+                btnElement.style.background = '#28a745';
 
-                    const row = btnElement.closest('tr');
-                    row.classList.add('fila-guardada-bd');
+                const row = btnElement.closest('tr');
+                row.classList.add('fila-guardada-bd');
 
-                    const indicator = document.getElementById('saveIndicator');
-                    indicator.style.background = '#28a745';
-                    indicator.textContent = 'Unidad guardada en la nube';
-                    indicator.style.opacity = '1';
+                const indicator = document.getElementById('saveIndicator');
+                indicator.style.background = '#28a745';
+                indicator.textContent = 'Unidad guardada en la nube';
+                indicator.style.opacity = '1';
+                setTimeout(() => {
+                    indicator.style.opacity = '0';
                     setTimeout(() => {
-                        indicator.style.opacity = '0';
-                        setTimeout(() => {
-                            btnElement.textContent = 'Guardar unidad';
-                            btnElement.style.background = '#AE8640';
-                        }, 2000);
+                        btnElement.textContent = 'Guardar unidad';
+                        btnElement.style.background = '#AE8640';
                     }, 2000);
-                } else {
-                    throw new Error(data.mensaje || 'Error al guardar');
-                }
+                }, 2000);
             })
             .catch(error => {
                 console.error('Error:', error);
                 btnElement.disabled = false;
                 btnElement.textContent = 'Guardar unidad';
-                alert('Error al guardar: ' + error.message);
+                alert('Error al guardar. Revisa tu conexion.');
             });
         }
 
@@ -1405,6 +1366,7 @@
         function cargarUnidades(estado) {
             const unidades = datosUnidades[estado] || [];
             datosActuales = JSON.parse(JSON.stringify(unidades));
+            filasGuardadasBD.clear();
 
             totalPaginas = Math.ceil(datosActuales.length / unidadesPorPagina);
             paginaActual = 0;
@@ -1452,11 +1414,6 @@
                 const cellCategoria = row.insertCell(2);
                 cellCategoria.innerHTML = unidad.categoria_gerencial_ampliada || '';
                 cellCategoria.style.backgroundColor = '#f9f9f9';
-
-                // Verificar si esta unidad ya esta guardada en la base de datos
-                if (unidadesGuardadasMap.has(unidad.clues_imb)) {
-                    row.classList.add('fila-guardada-bd');
-                }
 
                 for (let i = 0; i < columnasEquipamiento.length; i++) {
                     const col = columnasEquipamiento[i];
