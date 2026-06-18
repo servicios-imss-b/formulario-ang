@@ -737,7 +737,7 @@
         <h3>3. Llenar Equipamiento</h3>
         <p>Haga clic en cualquier celda para editarla, ingrese el valor y presione ACEPTAR.</p>
         <p><strong style="color:#2e7d32">VERDE:</strong> Valor ya registrado - Haga clic para modificar</p>
-        <p><strong style="color:#c62828">ROJO:</strong> Campo pendiente - Haga clic para llenar</p>
+        <p><strong style="color:#c62828">ROJO:</strong> Campo pendiente - Haga clic para llenar o si es 0 dejarlo asi </p>
         <p><strong style="color:#d4edda">FILA VERDE:</strong> Unidad ya guardada en la base de datos</p>
 
         <h3>4. Guardar Unidad</h3>
@@ -916,7 +916,7 @@
                 </div>
                 <div class="instruccion-item">
                     <div class="instruccion-color color-rojo"></div>
-                    <div class="instruccion-texto"><strong>ROJO</strong> Haga clic para LLENAR</div>
+                    <div class="instruccion-texto"><strong>ROJO</strong> Haga clic para LLENAR o si es 0 dejarlo asi </div>
                 </div>
                 <div class="instruccion-item">
                     <div style="background: #d4edda; width: 24px; height: 24px; border-radius: 6px; border: 1px solid #2e7d32;"></div>
@@ -1253,7 +1253,7 @@
                 datosParaGuardar[col] = (valor !== null && valor !== undefined && !isNaN(valor) && valor !== 0 && valor !== '') ? valor : '';
             }
 
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbx0OqRe5XyRm4UL0BsU8WhErU_PwvnNfo0uZTKnyfHCmV4qGfImIn8hjPaAjSHIn_33/exec';
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbz_jWYNTXewhT3zFW4YPWx08OPSOpUQbH6dEdPw_3-XR2GRmiKukPbPZgf2Vi8zboJz/exec';
 
             fetch(scriptURL, { 
                 method: 'POST', 
