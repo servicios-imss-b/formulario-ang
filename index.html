@@ -610,6 +610,12 @@
             border-color: #e65100 !important;
         }
 
+        .btn-turno.ambos-seleccionado {
+            background: #9C27B0 !important;
+            color: white !important;
+            border-color: #6A1B9A !important;
+        }
+
         .nube-icon {
             display: inline-block;
             font-size: 12px;
@@ -1223,7 +1229,7 @@
         <h3>6. Llenar Cuestionario</h3>
         <p>Para cada consultorio, complete:</p>
         <ul>
-            <li><strong>Turno:</strong> Seleccione <strong>Matutino</strong> o <strong>Vespertino</strong> (se guarda automaticamente)</li>
+            <li><strong>Turno:</strong> Seleccione <strong>Matutino</strong>, <strong>Vespertino</strong> o <strong>Ambos</strong> (se guarda automaticamente)</li>
             <li><strong>Cantidad:</strong> Haga clic en la celda, ingrese el valor y presione <strong>Enter</strong></li>
         </ul>
         <p><strong style="color:#2e7d32">VERDE:</strong> Valor > 0 registrado</p>
@@ -1233,7 +1239,7 @@
         <p><strong style="color:#d4edda">FILA VERDE:</strong> Unidad ya guardada en la base de datos</p>
 
         <h3>7. Guardado Automatico</h3>
-        <p>El turno se guarda automaticamente al hacer clic en Matutino o Vespertino.</p>
+        <p>El turno se guarda automaticamente al hacer clic en Matutino, Vespertino o Ambos.</p>
         <p>Cada pregunta se guarda automaticamente al presionar <strong>Enter</strong> despues de ingresar el valor.</p>
 
         <h3>8. Ver Detalles</h3>
@@ -1504,7 +1510,7 @@
                 </div>
                 <div class="instruccion-item">
                     <div style="background: #FF9800; width: 24px; height: 24px; border-radius: 6px;"></div>
-                    <div class="instruccion-texto"><strong>TURNO</strong> Seleccione Matutino o Vespertino</div>
+                    <div class="instruccion-texto"><strong>TURNO</strong> Seleccione Matutino, Vespertino o Ambos</div>
                 </div>
             </div>
 
@@ -1877,6 +1883,20 @@
             btnVespertino.style.transition = '0.3s';
             btnVespertino.style.minWidth = '75px';
 
+            const btnAmbos = document.createElement('button');
+            btnAmbos.textContent = 'Ambos';
+            btnAmbos.className = 'btn-turno';
+            btnAmbos.style.padding = '4px 10px';
+            btnAmbos.style.border = '2px solid #ccc';
+            btnAmbos.style.borderRadius = '5px';
+            btnAmbos.style.cursor = 'pointer';
+            btnAmbos.style.fontSize = '11px';
+            btnAmbos.style.fontWeight = '600';
+            btnAmbos.style.backgroundColor = '#f0f0f0';
+            btnAmbos.style.color = '#333';
+            btnAmbos.style.transition = '0.3s';
+            btnAmbos.style.minWidth = '75px';
+
             function actualizarTurnoSeleccionado(valor) {
                 btnMatutino.style.backgroundColor = '#f0f0f0';
                 btnMatutino.style.color = '#333';
@@ -1884,6 +1904,9 @@
                 btnVespertino.style.backgroundColor = '#f0f0f0';
                 btnVespertino.style.color = '#333';
                 btnVespertino.style.borderColor = '#ccc';
+                btnAmbos.style.backgroundColor = '#f0f0f0';
+                btnAmbos.style.color = '#333';
+                btnAmbos.style.borderColor = '#ccc';
 
                 if (valor === 'Matutino') {
                     btnMatutino.style.backgroundColor = '#4CAF50';
@@ -1893,6 +1916,10 @@
                     btnVespertino.style.backgroundColor = '#FF9800';
                     btnVespertino.style.color = 'white';
                     btnVespertino.style.borderColor = '#e65100';
+                } else if (valor === 'Ambos') {
+                    btnAmbos.style.backgroundColor = '#9C27B0';
+                    btnAmbos.style.color = 'white';
+                    btnAmbos.style.borderColor = '#6A1B9A';
                 }
             }
 
@@ -1923,8 +1950,10 @@
 
                 btnMatutino.disabled = true;
                 btnVespertino.disabled = true;
+                btnAmbos.disabled = true;
                 btnMatutino.style.opacity = '0.6';
                 btnVespertino.style.opacity = '0.6';
+                btnAmbos.style.opacity = '0.6';
 
                 fetch(SCRIPT_URL, { 
                     method: 'POST', 
@@ -1955,8 +1984,10 @@
                 .finally(() => {
                     btnMatutino.disabled = false;
                     btnVespertino.disabled = false;
+                    btnAmbos.disabled = false;
                     btnMatutino.style.opacity = '1';
                     btnVespertino.style.opacity = '1';
+                    btnAmbos.style.opacity = '1';
                 });
             }
 
@@ -1970,7 +2001,12 @@
                 guardarTurno('Vespertino');
             };
 
-            if (valorTurno === 'Matutino' || valorTurno === 'Vespertino') {
+            btnAmbos.onclick = function(e) {
+                e.stopPropagation();
+                guardarTurno('Ambos');
+            };
+
+            if (valorTurno === 'Matutino' || valorTurno === 'Vespertino' || valorTurno === 'Ambos') {
                 actualizarTurnoSeleccionado(valorTurno);
                 const claveNubeTurno = usuarioActual.email + '|' + unidadSeleccionada.clues_imb + '|' + colTurno;
                 if (camposGuardadosNube.has(claveNubeTurno)) {
@@ -1985,6 +2021,7 @@
 
             container.appendChild(btnMatutino);
             container.appendChild(btnVespertino);
+            container.appendChild(btnAmbos);
 
             return container;
         }
@@ -2660,7 +2697,7 @@
             for (let j = 1; j <= numConsultorios; j++) {
                 const colTurno = PREGUNTA_TURNO + '_consultorio_' + j;
                 const turno = unidadSeleccionada[colTurno];
-                if (turno === 'Matutino' || turno === 'Vespertino') {
+                if (turno === 'Matutino' || turno === 'Vespertino' || turno === 'Ambos') {
                     turnosCompletados++;
                     const claveNube = usuarioActual.email + '|' + unidadSeleccionada.clues_imb + '|' + colTurno;
                     if (camposGuardadosNube.has(claveNube)) {
