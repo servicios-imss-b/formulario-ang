@@ -160,6 +160,16 @@
     "pct_llenado": 95.5
   },
   {
+    "clues_imb": "BSIMB000194",
+    "nombre_de_la_unidad": "CENTRO DE SALUD OLACHEA, LA PAZ",
+    "entidad": "BAJA CALIFORNIA SUR",
+    "lat": 24.1624993181422,
+    "lng": -110.2922955119,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
     "clues_imb": "BSIMB000206",
     "nombre_de_la_unidad": "CENTRO DE SALUD 8 DE OCTUBRE, LA PAZ",
     "entidad": "BAJA CALIFORNIA SUR",
@@ -177,7 +187,7 @@
     "lng": -110.282235848649,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 20.5
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "BSIMB000276",
@@ -186,8 +196,8 @@
     "lat": 23.6799599686488,
     "lng": -109.699109803692,
     "internet": true,
-    "consultorios": 1.0,
-    "pct_llenado": 100.0
+    "consultorios": 2.0,
+    "pct_llenado": 94.3
   },
   {
     "clues_imb": "BSIMB000310",
@@ -417,7 +427,7 @@
     "lng": -91.0274,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 88.6
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "CCIMB000971",
@@ -7767,7 +7777,7 @@
     "lng": -99.58107,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 36.4
+    "pct_llenado": 54.5
   },
   {
     "clues_imb": "MCIMB011776",
@@ -9237,6 +9247,16 @@
     "lng": -96.635625,
     "internet": true,
     "consultorios": 2.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "PLIMB001804",
+    "nombre_de_la_unidad": "CENTRO DE SALUD URBANO SAN BERNABE TEMOXTITLA",
+    "entidad": "PUEBLA",
+    "lat": 18.9720264073807,
+    "lng": -98.266737101108,
+    "internet": true,
+    "consultorios": 1.0,
     "pct_llenado": 100.0
   },
   {
@@ -11427,7 +11447,7 @@
     "lng": -93.0074,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 4.5
+    "pct_llenado": 36.4
   },
   {
     "clues_imb": "TCIMB003270",
@@ -11455,6 +11475,16 @@
     "entidad": "TABASCO",
     "lat": 17.2564,
     "lng": -91.3618,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "TCIMB003632",
+    "nombre_de_la_unidad": "C.S. EMILIANO ZAPATA 2DA. SECCIÓN",
+    "entidad": "TABASCO",
+    "lat": 17.4166,
+    "lng": -91.322,
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
@@ -11516,6 +11546,16 @@
     "lat": 17.3041,
     "lng": -91.3535,
     "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "TCIMB003731",
+    "nombre_de_la_unidad": "C.S. USUMACINTA",
+    "entidad": "TABASCO",
+    "lat": 17.5528,
+    "lng": -91.4934,
+    "internet": false,
     "consultorios": 1.0,
     "pct_llenado": 100.0
   },
