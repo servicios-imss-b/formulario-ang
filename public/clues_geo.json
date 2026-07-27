@@ -5987,7 +5987,7 @@
     "lng": -99.0565,
     "internet": true,
     "consultorios": 6.0,
-    "pct_llenado": 73.9
+    "pct_llenado": 97.0
   },
   {
     "clues_imb": "MCIMB002075",
@@ -6011,13 +6011,13 @@
   },
   {
     "clues_imb": "MCIMB002092",
-    "nombre_de_la_unidad": null,
+    "nombre_de_la_unidad": "SANTA CLARA",
     "entidad": "MEXICO",
     "lat": 19.540106,
     "lng": -99.067055,
-    "internet": false,
+    "internet": true,
     "consultorios": 6.0,
-    "pct_llenado": 42.4
+    "pct_llenado": 89.8
   },
   {
     "clues_imb": "MCIMB002104",
@@ -7737,7 +7737,7 @@
     "lng": -98.981763,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 34.1
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB010026",
@@ -11207,7 +11207,7 @@
     "lng": -109.636,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 13.6
+    "pct_llenado": 47.7
   },
   {
     "clues_imb": "TCIMB000021",
