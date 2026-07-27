@@ -140,6 +140,16 @@
     "pct_llenado": 95.5
   },
   {
+    "clues_imb": "BSIMB000136",
+    "nombre_de_la_unidad": null,
+    "entidad": "BAJA CALIFORNIA SUR",
+    "lat": 27.6921309968781,
+    "lng": -114.898584654017,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 81.8
+  },
+  {
     "clues_imb": "BSIMB000153",
     "nombre_de_la_unidad": "CENTRO DE SALUD GUSTAVO DÍAZ ORDAZ",
     "entidad": "BAJA CALIFORNIA SUR",
@@ -6057,7 +6067,7 @@
     "lng": -99.0171,
     "internet": true,
     "consultorios": 6.0,
-    "pct_llenado": 69.3
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB002145",
@@ -6097,7 +6107,7 @@
     "lng": -99.0304,
     "internet": true,
     "consultorios": 6.0,
-    "pct_llenado": 89.0
+    "pct_llenado": 95.5
   },
   {
     "clues_imb": "MCIMB002186",
@@ -6127,7 +6137,7 @@
     "lng": -99.0424,
     "internet": true,
     "consultorios": 6.0,
-    "pct_llenado": 54.9
+    "pct_llenado": 71.2
   },
   {
     "clues_imb": "MCIMB002261",
@@ -6407,7 +6417,7 @@
     "lng": -99.0485278,
     "internet": false,
     "consultorios": 6.0,
-    "pct_llenado": 36.0
+    "pct_llenado": 53.0
   },
   {
     "clues_imb": "MCIMB003924",
