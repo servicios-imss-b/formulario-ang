@@ -1,0 +1,173 @@
+[
+  {
+    "entidad": "MORELOS",
+    "clues_reportadas": 35,
+    "consultorios_reportados": 40,
+    "preguntas_respondidas_validas_total": 1755,
+    "preguntas_esperadas_total": 1760,
+    "faltantes_total": 5,
+    "porcentaje_llenado": 99.7
+  },
+  {
+    "entidad": "ZACATECAS",
+    "clues_reportadas": 18,
+    "consultorios_reportados": 38,
+    "preguntas_respondidas_validas_total": 1655,
+    "preguntas_esperadas_total": 1672,
+    "faltantes_total": 17,
+    "porcentaje_llenado": 99.0
+  },
+  {
+    "entidad": "COLIMA",
+    "clues_reportadas": 42,
+    "consultorios_reportados": 55,
+    "preguntas_respondidas_validas_total": 2389,
+    "preguntas_esperadas_total": 2420,
+    "faltantes_total": 31,
+    "porcentaje_llenado": 98.7
+  },
+  {
+    "entidad": "HIDALGO",
+    "clues_reportadas": 24,
+    "consultorios_reportados": 44,
+    "preguntas_respondidas_validas_total": 1871,
+    "preguntas_esperadas_total": 1936,
+    "faltantes_total": 65,
+    "porcentaje_llenado": 96.6
+  },
+  {
+    "entidad": "OAXACA",
+    "clues_reportadas": 31,
+    "consultorios_reportados": 65,
+    "preguntas_respondidas_validas_total": 2730,
+    "preguntas_esperadas_total": 2860,
+    "faltantes_total": 130,
+    "porcentaje_llenado": 95.5
+  },
+  {
+    "entidad": "NAYARIT",
+    "clues_reportadas": 46,
+    "consultorios_reportados": 48,
+    "preguntas_respondidas_validas_total": 2017,
+    "preguntas_esperadas_total": 2112,
+    "faltantes_total": 95,
+    "porcentaje_llenado": 95.5
+  },
+  {
+    "entidad": "TAMAULIPAS",
+    "clues_reportadas": 80,
+    "consultorios_reportados": 111,
+    "preguntas_respondidas_validas_total": 4660,
+    "preguntas_esperadas_total": 4884,
+    "faltantes_total": 224,
+    "porcentaje_llenado": 95.4
+  },
+  {
+    "entidad": "MICHOACAN DE OCAMPO",
+    "clues_reportadas": 27,
+    "consultorios_reportados": 69,
+    "preguntas_respondidas_validas_total": 2846,
+    "preguntas_esperadas_total": 3036,
+    "faltantes_total": 190,
+    "porcentaje_llenado": 93.7
+  },
+  {
+    "entidad": "VERACRUZ DE IGNACIO DE LA LLAVE",
+    "clues_reportadas": 49,
+    "consultorios_reportados": 86,
+    "preguntas_respondidas_validas_total": 3502,
+    "preguntas_esperadas_total": 3784,
+    "faltantes_total": 282,
+    "porcentaje_llenado": 92.5
+  },
+  {
+    "entidad": "QUINTANA ROO",
+    "clues_reportadas": 92,
+    "consultorios_reportados": 108,
+    "preguntas_respondidas_validas_total": 4384,
+    "preguntas_esperadas_total": 4752,
+    "faltantes_total": 368,
+    "porcentaje_llenado": 92.3
+  },
+  {
+    "entidad": "BAJA CALIFORNIA SUR",
+    "clues_reportadas": 22,
+    "consultorios_reportados": 28,
+    "preguntas_respondidas_validas_total": 1104,
+    "preguntas_esperadas_total": 1232,
+    "faltantes_total": 128,
+    "porcentaje_llenado": 89.6
+  },
+  {
+    "entidad": "GUERRERO",
+    "clues_reportadas": 418,
+    "consultorios_reportados": 493,
+    "preguntas_respondidas_validas_total": 19360,
+    "preguntas_esperadas_total": 21692,
+    "faltantes_total": 2332,
+    "porcentaje_llenado": 89.2
+  },
+  {
+    "entidad": "TABASCO",
+    "clues_reportadas": 50,
+    "consultorios_reportados": 53,
+    "preguntas_respondidas_validas_total": 2045,
+    "preguntas_esperadas_total": 2332,
+    "faltantes_total": 287,
+    "porcentaje_llenado": 87.7
+  },
+  {
+    "entidad": "CHIAPAS",
+    "clues_reportadas": 23,
+    "consultorios_reportados": 52,
+    "preguntas_respondidas_validas_total": 2002,
+    "preguntas_esperadas_total": 2288,
+    "faltantes_total": 286,
+    "porcentaje_llenado": 87.5
+  },
+  {
+    "entidad": "MEXICO",
+    "clues_reportadas": 220,
+    "consultorios_reportados": 594,
+    "preguntas_respondidas_validas_total": 22813,
+    "preguntas_esperadas_total": 26136,
+    "faltantes_total": 3323,
+    "porcentaje_llenado": 87.3
+  },
+  {
+    "entidad": "CAMPECHE",
+    "clues_reportadas": 16,
+    "consultorios_reportados": 21,
+    "preguntas_respondidas_validas_total": 757,
+    "preguntas_esperadas_total": 924,
+    "faltantes_total": 167,
+    "porcentaje_llenado": 81.9
+  },
+  {
+    "entidad": "SAN LUIS POTOSI",
+    "clues_reportadas": 27,
+    "consultorios_reportados": 60,
+    "preguntas_respondidas_validas_total": 2154,
+    "preguntas_esperadas_total": 2640,
+    "faltantes_total": 486,
+    "porcentaje_llenado": 81.6
+  },
+  {
+    "entidad": "BAJA CALIFORNIA",
+    "clues_reportadas": 6,
+    "consultorios_reportados": 7,
+    "preguntas_respondidas_validas_total": 238,
+    "preguntas_esperadas_total": 308,
+    "faltantes_total": 70,
+    "porcentaje_llenado": 77.3
+  },
+  {
+    "entidad": "SINALOA",
+    "clues_reportadas": 65,
+    "consultorios_reportados": 65,
+    "preguntas_respondidas_validas_total": 2174,
+    "preguntas_esperadas_total": 2860,
+    "faltantes_total": 686,
+    "porcentaje_llenado": 76.0
+  }
+]
