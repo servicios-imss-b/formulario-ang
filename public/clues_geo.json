@@ -30,6 +30,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "BCIMB000466",
+    "nombre_de_la_unidad": "ORIZABA",
+    "entidad": "BAJA CALIFORNIA",
+    "lat": 32.6369926,
+    "lng": -115.5161416,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 6.8
+  },
+  {
     "clues_imb": "BCIMB000536",
     "nombre_de_la_unidad": "DURANGO",
     "entidad": "BAJA CALIFORNIA",
@@ -200,6 +210,16 @@
     "pct_llenado": 94.3
   },
   {
+    "clues_imb": "BSIMB000293",
+    "nombre_de_la_unidad": "CENTRO DE SALUD LOS PLANES",
+    "entidad": "BAJA CALIFORNIA SUR",
+    "lat": 23.967436813792,
+    "lng": -109.934723252289,
+    "internet": true,
+    "consultorios": 2.0,
+    "pct_llenado": 4.5
+  },
+  {
     "clues_imb": "BSIMB000310",
     "nombre_de_la_unidad": "CENTRO DE SALUD SAN BARTOLO",
     "entidad": "BAJA CALIFORNIA SUR",
@@ -238,6 +258,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 72.7
+  },
+  {
+    "clues_imb": "BSIMB000450",
+    "nombre_de_la_unidad": "CENTRO DE SALUD LOMAS DEL SOL, CABO SAN LUCAS",
+    "entidad": "BAJA CALIFORNIA SUR",
+    "lat": 22.9159382181282,
+    "lng": -109.928670924197,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 90.9
   },
   {
     "clues_imb": "BSIMB000462",
@@ -395,9 +425,9 @@
     "entidad": "CAMPECHE",
     "lat": 18.071103,
     "lng": -91.103439,
-    "internet": false,
+    "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 88.6
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "CCIMB000843",
@@ -5637,7 +5667,7 @@
     "lng": -100.368934,
     "internet": true,
     "consultorios": 3.0,
-    "pct_llenado": 83.3
+    "pct_llenado": 84.8
   },
   {
     "clues_imb": "MCIMB000733",
@@ -5757,7 +5787,7 @@
     "lng": -99.243759,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 37.5
+    "pct_llenado": 76.1
   },
   {
     "clues_imb": "MCIMB001276",
@@ -5967,7 +5997,7 @@
     "lng": -98.998,
     "internet": true,
     "consultorios": 8.0,
-    "pct_llenado": 34.9
+    "pct_llenado": 43.5
   },
   {
     "clues_imb": "MCIMB002080",
@@ -6266,8 +6296,8 @@
     "lat": 19.435,
     "lng": -99.2503,
     "internet": true,
-    "consultorios": 1.0,
-    "pct_llenado": 100.0
+    "consultorios": 6.0,
+    "pct_llenado": 79.2
   },
   {
     "clues_imb": "MCIMB003784",
@@ -6417,7 +6447,7 @@
     "lng": -99.031982,
     "internet": false,
     "consultorios": 6.0,
-    "pct_llenado": 40.9
+    "pct_llenado": 46.6
   },
   {
     "clues_imb": "MCIMB003965",
@@ -6507,7 +6537,7 @@
     "lng": -98.993548,
     "internet": true,
     "consultorios": 8.0,
-    "pct_llenado": 78.1
+    "pct_llenado": 84.7
   },
   {
     "clues_imb": "MCIMB004052",
@@ -7247,7 +7277,7 @@
     "lng": -99.617549,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 27.3
+    "pct_llenado": 29.5
   },
   {
     "clues_imb": "MCIMB008346",
@@ -7777,7 +7807,7 @@
     "lng": -99.58107,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 54.5
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB011776",
@@ -7797,7 +7827,7 @@
     "lng": -99.565079,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 22.7
+    "pct_llenado": 27.3
   },
   {
     "clues_imb": "MCIMB012312",
@@ -10770,6 +10800,16 @@
     "pct_llenado": 63.6
   },
   {
+    "clues_imb": "SLIMB002201",
+    "nombre_de_la_unidad": "VALLE DEL JARIPILLO",
+    "entidad": "SINALOA",
+    "lat": 23.2600166104595,
+    "lng": -106.399134100114,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 93.2
+  },
+  {
     "clues_imb": "SLIMB002283",
     "nombre_de_la_unidad": "CENTRO DE SALUD EL DORADO",
     "entidad": "SINALOA",
@@ -11138,6 +11178,36 @@
     "internet": true,
     "consultorios": 4.0,
     "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "SRIMB000231",
+    "nombre_de_la_unidad": "CENTRO DE SALUD RURAL ARIZPE",
+    "entidad": "SONORA",
+    "lat": 30.339788,
+    "lng": -110.165064,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 43.2
+  },
+  {
+    "clues_imb": "SRIMB000325",
+    "nombre_de_la_unidad": "CENTRO DE SALUD RURAL UNAMICHI",
+    "entidad": "SONORA",
+    "lat": 30.674521,
+    "lng": -109.985513,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 4.5
+  },
+  {
+    "clues_imb": "SRIMB001882",
+    "nombre_de_la_unidad": "CENTRO DE SALUD RURAL SOYOPA",
+    "entidad": "SONORA",
+    "lat": 28.7639,
+    "lng": -109.636,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 13.6
   },
   {
     "clues_imb": "TCIMB000021",
@@ -11555,7 +11625,7 @@
     "entidad": "TABASCO",
     "lat": 17.5528,
     "lng": -91.4934,
-    "internet": false,
+    "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
   },
