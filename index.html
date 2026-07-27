@@ -1426,6 +1426,8 @@
                 <p><strong>Consultorios:</strong> <span id="popupConsultorios"></span></p>
                 <p><strong>Internet:</strong> <span id="popupInternet"></span></p>
                 <p><strong>Consultorios Habilitados:</strong> <span id="popupConsultoriosHabilitados"></span></p>
+                <div id="popupAvance" style="margin-top:10px; padding:8px; border:1px solid #d8e5e1; border-radius:8px; background:#f9fffd;"></div>
+                <div id="popupLeyenda" style="margin-top:8px; font-size:12px; color:#8a3f00; background:#fff5e8; border:1px solid #ffd7ad; border-radius:6px; padding:8px;"></div>
             </div>
             <button class="popup-close" onclick="cerrarPopup()">Cerrar</button>
         </div>
@@ -1611,10 +1613,92 @@
             return nombre.replace(/_/g, ' ');
         }
 
+
+        function normalizarClavePregunta(clave) {
+            return String(clave || '')
+                .trim()
+                .toLowerCase()
+                .replace(/,/g, '')
+                .replace(/\s+/g, '_')
+                .replace(/_+/g, '_')
+                .replace(/^_+|_+$/g, '');
+        }
+
+        const mapaPreguntaNormalizada = (() => {
+            const mapa = {};
+            for (const p of columnasEquipamiento) {
+                mapa[normalizarClavePregunta(p)] = String(p).toLowerCase().replace(/\s+/g, '_');
+            }
+            return mapa;
+        })();
+
+        function preguntaContestadaEnConsultorio(unidad, claveFaltanteNormalizada, consultorio) {
+            if (!unidad) return false;
+            const baseMapeada = mapaPreguntaNormalizada[claveFaltanteNormalizada] || claveFaltanteNormalizada;
+            const colDirecta = baseMapeada + '_consultorio_' + consultorio;
+
+            const tieneDatoValido = (valor) => {
+                if (valor === null || valor === undefined) return false;
+                const txt = String(valor).trim().toLowerCase();
+                if (!txt || txt === 'nan') return false;
+                return true;
+            };
+
+            if (tieneDatoValido(unidad[colDirecta])) return true;
+
+            for (const [key, value] of Object.entries(unidad)) {
+                if (!key.endsWith('_consultorio_' + consultorio)) continue;
+                const base = key.replace(/_consultorio_\d+$/, '');
+                if (normalizarClavePregunta(base) === claveFaltanteNormalizada && tieneDatoValido(value)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        function obtenerResumenConsultorio(clues, consultorio) {
+            const faltantesBase = obtenerFaltantesConsultorio(clues, consultorio)
+                .map(normalizarClavePregunta)
+                .filter(Boolean);
+            let pendientes = 0;
+            for (const faltanteNorm of faltantesBase) {
+                if (!preguntaContestadaEnConsultorio(unidadSeleccionada, faltanteNorm, consultorio)) {
+                    pendientes += 1;
+                }
+            }
+            return { totalBase: faltantesBase.length, pendientes: pendientes };
+        }
+
         function obtenerPorcentajeConsultorio(clues, consultorio) {
             const key = String(clues || '').trim() + '|' + Number(consultorio);
-            const val = porcentajeLookup[key];
-            return Number.isFinite(val) ? val : null;
+            const basePct = porcentajeLookup[key];
+            if (!Number.isFinite(basePct)) return null;
+
+            const claveUnidad = String(unidadSeleccionada?.clues_imb || '').trim();
+            const claveConsulta = String(clues || '').trim();
+            if (!unidadSeleccionada || claveUnidad !== claveConsulta) return basePct;
+
+            const faltantesBase = obtenerFaltantesConsultorio(clues, consultorio)
+                .map(normalizarClavePregunta)
+                .filter(Boolean);
+
+            const totalPreguntas = columnasEquipamiento.filter(
+                p => p !== PREGUNTA_INTERNET && p !== PREGUNTA_CONSULTORIOS_HABILITADOS && p !== PREGUNTA_TURNO
+            ).length;
+            if (!totalPreguntas) return basePct;
+            if (!faltantesBase.length) return 100;
+
+            const respondidasBase = Math.max(0, totalPreguntas - faltantesBase.length);
+            let recuperadas = 0;
+            for (const faltanteNorm of faltantesBase) {
+                if (preguntaContestadaEnConsultorio(unidadSeleccionada, faltanteNorm, consultorio)) {
+                    recuperadas += 1;
+                }
+            }
+
+            const porcentajeDinamico = ((respondidasBase + recuperadas) / totalPreguntas) * 100;
+            const porcentajeFinal = Math.max(basePct, Math.min(100, porcentajeDinamico));
+            return Math.round(porcentajeFinal * 10) / 10;
         }
 
         function obtenerResumenPorcentajesUnidad(clues) {
@@ -2794,7 +2878,38 @@
                 document.getElementById('progressInfo').innerHTML = '';
                 return;
             }
-            document.getElementById('progressInfo').innerHTML = '';
+
+            const clues = unidadSeleccionada.clues_imb || '';
+            const chips = [];
+            const pcts = [];
+
+            for (let i = 1; i <= numConsultorios; i++) {
+                const pct = obtenerPorcentajeConsultorio(clues, i);
+                const resumen = obtenerResumenConsultorio(clues, i);
+                const pctTxt = (pct === null) ? 'Sin dato' : pct.toFixed(1) + '%';
+                if (pct !== null) pcts.push(pct);
+                chips.push(
+                    '<span style="display:inline-block; margin:3px; padding:5px 8px; border-radius:999px; background:#eef7f4; border:1px solid #d4e7e0;">'
+                    + 'C' + i + ': <strong>' + pctTxt + '</strong>'
+                    + ' | Faltantes: ' + resumen.pendientes + '/' + resumen.totalBase
+                    + '</span>'
+                );
+            }
+
+            const generalNum = pcts.length ? (pcts.reduce((a, b) => a + b, 0) / pcts.length) : null;
+            const general = (generalNum === null) ? 'Sin dato' : (generalNum.toFixed(1) + '%');
+            const barra = (generalNum === null) ? 0 : Math.max(0, Math.min(100, generalNum));
+            document.getElementById('progressInfo').innerHTML = ''
+                + '<div style="border:1px solid #d9e8e2; border-radius:10px; background:#fbfefc; padding:10px; margin-top:6px;">'
+                + '<div style="font-weight:700; color:#1f574c; margin-bottom:6px;">Progreso de llenado: ' + general + '</div>'
+                + '<div style="height:12px; border-radius:999px; background:#e3ece8; overflow:hidden; margin-bottom:8px;">'
+                + '<div style="height:100%; width:' + barra.toFixed(1) + '%; background:linear-gradient(90deg, #2f8f67, #57b78d); transition:width .25s ease;"></div>'
+                + '</div>'
+                + '<div style="font-size:12px; margin-bottom:6px;">' + chips.join('') + '</div>'
+                + '<div style="font-size:12px; color:#8a3f00; background:#fff5e8; border:1px solid #ffd7ad; border-radius:6px; padding:8px;">'
+                + 'Estamos teniendo fallas de conexion con el servidor. Si nota que alguna pregunta no se llena, vuelva a intentar.'
+                + '</div>'
+                + '</div>';
         }
 
         function mostrarPopupUnidad() {
@@ -2821,6 +2936,33 @@
                 habilitadosText = habilitadosValor;
             }
             document.getElementById('popupConsultoriosHabilitados').textContent = habilitadosText;
+
+            const chips = [];
+            const pcts = [];
+            const clues = unidadSeleccionada.clues_imb || '';
+            for (let i = 1; i <= numConsultorios; i++) {
+                const pct = obtenerPorcentajeConsultorio(clues, i);
+                const resumen = obtenerResumenConsultorio(clues, i);
+                const pctTxt = (pct === null) ? 'Sin dato' : pct.toFixed(1) + '%';
+                if (pct !== null) pcts.push(pct);
+                chips.push('C' + i + ': ' + pctTxt + ' | Faltantes: ' + resumen.pendientes + '/' + resumen.totalBase);
+            }
+            const generalNum = pcts.length ? (pcts.reduce((a, b) => a + b, 0) / pcts.length) : null;
+            const general = (generalNum === null) ? 'Sin dato' : (generalNum.toFixed(1) + '%');
+            const barra = (generalNum === null) ? 0 : Math.max(0, Math.min(100, generalNum));
+            const popupAvance = document.getElementById('popupAvance');
+            if (popupAvance) {
+                popupAvance.innerHTML = ''
+                    + '<strong>Progreso de llenado:</strong> ' + general
+                    + '<div style="height:10px; border-radius:999px; background:#e3ece8; overflow:hidden; margin:6px 0 8px;">'
+                    + '<div style="height:100%; width:' + barra.toFixed(1) + '%; background:linear-gradient(90deg, #2f8f67, #57b78d); transition:width .25s ease;"></div>'
+                    + '</div>'
+                    + '<small>' + chips.join(' | ') + '</small>';
+            }
+            const popupLeyenda = document.getElementById('popupLeyenda');
+            if (popupLeyenda) {
+                popupLeyenda.textContent = 'Estamos teniendo fallas de conexion con el servidor. Si nota que alguna pregunta no se llena, vuelva a intentar.';
+            }
 
             document.getElementById('popupUnidad').classList.add('active');
         }
