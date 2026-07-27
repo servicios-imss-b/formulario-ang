@@ -267,7 +267,7 @@
     "lng": -109.928670924197,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 90.9
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "BSIMB000462",
@@ -5711,13 +5711,13 @@
   },
   {
     "clues_imb": "MCIMB000931",
-    "nombre_de_la_unidad": null,
+    "nombre_de_la_unidad": "LAS COLONIAS",
     "entidad": "MEXICO",
     "lat": 19.561734,
     "lng": -99.2329702,
-    "internet": false,
+    "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 20.5
+    "pct_llenado": 72.7
   },
   {
     "clues_imb": "MCIMB000943",
@@ -5767,7 +5767,7 @@
     "lng": -99.2515397,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 81.8
+    "pct_llenado": 86.4
   },
   {
     "clues_imb": "MCIMB000996",
@@ -5881,13 +5881,13 @@
   },
   {
     "clues_imb": "MCIMB001812",
-    "nombre_de_la_unidad": null,
+    "nombre_de_la_unidad": "EMILIANO ZAPATA",
     "entidad": "MEXICO",
     "lat": 19.39785,
     "lng": -98.929523,
-    "internet": false,
+    "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 2.3
+    "pct_llenado": 88.6
   },
   {
     "clues_imb": "MCIMB001853",
@@ -5986,8 +5986,8 @@
     "lat": 19.4992,
     "lng": -99.0565,
     "internet": true,
-    "consultorios": 5.0,
-    "pct_llenado": 9.1
+    "consultorios": 6.0,
+    "pct_llenado": 73.9
   },
   {
     "clues_imb": "MCIMB002075",
@@ -6447,7 +6447,7 @@
     "lng": -99.031982,
     "internet": false,
     "consultorios": 6.0,
-    "pct_llenado": 46.6
+    "pct_llenado": 61.7
   },
   {
     "clues_imb": "MCIMB003965",
@@ -7497,7 +7497,7 @@
     "lng": -98.959137,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 75.0
+    "pct_llenado": 95.5
   },
   {
     "clues_imb": "MCIMB008713",
@@ -7667,7 +7667,7 @@
     "lng": -99.2371,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 11.4
+    "pct_llenado": 27.3
   },
   {
     "clues_imb": "MCIMB009524",
@@ -11187,7 +11187,7 @@
     "lng": -110.165064,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 43.2
+    "pct_llenado": 56.8
   },
   {
     "clues_imb": "SRIMB000325",
