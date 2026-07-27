@@ -141,13 +141,13 @@
   },
   {
     "clues_imb": "BSIMB000136",
-    "nombre_de_la_unidad": null,
+    "nombre_de_la_unidad": "CENTRO DE SALUD BAHÍA TORTUGAS",
     "entidad": "BAJA CALIFORNIA SUR",
     "lat": 27.6921309968781,
     "lng": -114.898584654017,
-    "internet": false,
+    "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 81.8
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "BSIMB000153",
@@ -6087,7 +6087,7 @@
     "lng": -99.0314,
     "internet": true,
     "consultorios": 6.0,
-    "pct_llenado": 78.0
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB002162",
@@ -6097,7 +6097,7 @@
     "lng": -99.0567,
     "internet": true,
     "consultorios": 6.0,
-    "pct_llenado": 77.3
+    "pct_llenado": 98.1
   },
   {
     "clues_imb": "MCIMB002174",
@@ -6477,7 +6477,7 @@
     "lng": -98.98627,
     "internet": false,
     "consultorios": 6.0,
-    "pct_llenado": 12.1
+    "pct_llenado": 49.6
   },
   {
     "clues_imb": "MCIMB003982",
