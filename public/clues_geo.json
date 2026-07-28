@@ -6557,7 +6557,7 @@
     "lng": -99.031982,
     "internet": false,
     "consultorios": 6.0,
-    "pct_llenado": 61.7
+    "pct_llenado": 62.1
   },
   {
     "clues_imb": "MCIMB003965",
@@ -11317,7 +11317,7 @@
     "lng": -109.636,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 47.7
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB000021",
@@ -12267,7 +12267,7 @@
     "lng": -92.9061,
     "internet": true,
     "consultorios": 4.0,
-    "pct_llenado": 96.6
+    "pct_llenado": 98.3
   },
   {
     "clues_imb": "TCIMB005336",
