@@ -237,7 +237,7 @@
     "lng": -109.934723252289,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 27.3
+    "pct_llenado": 54.5
   },
   {
     "clues_imb": "BSIMB000305",
@@ -367,7 +367,7 @@
     "lng": -110.309359324655,
     "internet": true,
     "consultorios": 3.0,
-    "pct_llenado": 11.4
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "BSIMB000730",
@@ -520,6 +520,26 @@
     "pct_llenado": 43.2
   },
   {
+    "clues_imb": "CCIMB000476",
+    "nombre_de_la_unidad": "CENTRO DE SALUD SAN ANTONIO YAXCHE",
+    "entidad": "CAMPECHE",
+    "lat": 20.113283,
+    "lng": -89.732692,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "CCIMB000493",
+    "nombre_de_la_unidad": "CENTRO DE SALUD XCAN HA",
+    "entidad": "CAMPECHE",
+    "lat": 19.100648,
+    "lng": -89.334012,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
     "clues_imb": "CCIMB000505",
     "nombre_de_la_unidad": "CENTRO DE SALUD EL JUNCAL",
     "entidad": "CAMPECHE",
@@ -538,6 +558,26 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 9.1
+  },
+  {
+    "clues_imb": "CCIMB000645",
+    "nombre_de_la_unidad": "CENTRO DE SALUD JÓSE MARIA MORELOS Y PAVÓN O CIVALITO",
+    "entidad": "CAMPECHE",
+    "lat": 17.88584,
+    "lng": -89.28457,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 97.7
+  },
+  {
+    "clues_imb": "CCIMB000650",
+    "nombre_de_la_unidad": "CENTRO DE SALUD JOSÉFA ORTÍZ DE DOMÍNGUEZ",
+    "entidad": "CAMPECHE",
+    "lat": 18.07003,
+    "lng": -89.1718,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "CCIMB000773",
@@ -585,8 +625,8 @@
     "entidad": "CAMPECHE",
     "lat": 20.00376,
     "lng": -89.75486,
-    "internet": true,
-    "consultorios": 1.0,
+    "internet": false,
+    "consultorios": 2.0,
     "pct_llenado": 100.0
   },
   {
@@ -1037,7 +1077,7 @@
     "lng": -92.1255,
     "internet": true,
     "consultorios": 6.0,
-    "pct_llenado": 23.9
+    "pct_llenado": 36.7
   },
   {
     "clues_imb": "CSIMB000501",
@@ -6657,7 +6697,7 @@
     "lng": -98.993548,
     "internet": true,
     "consultorios": 8.0,
-    "pct_llenado": 84.9
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB004052",
@@ -7946,8 +7986,8 @@
     "lat": 19.163208,
     "lng": -99.565079,
     "internet": true,
-    "consultorios": 2.0,
-    "pct_llenado": 59.1
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB012312",
@@ -11317,7 +11357,7 @@
     "lng": -110.165064,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 56.8
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "SRIMB000325",
@@ -11328,6 +11368,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 4.5
+  },
+  {
+    "clues_imb": "SRIMB001071",
+    "nombre_de_la_unidad": "CENTRO DE SALUD RURAL MIGUEL ALEMÁN",
+    "entidad": "SONORA",
+    "lat": 28.841265,
+    "lng": -111.488975,
+    "internet": true,
+    "consultorios": 4.0,
+    "pct_llenado": 11.9
   },
   {
     "clues_imb": "SRIMB001083",
@@ -11517,7 +11567,7 @@
     "lng": -92.817793,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 25.0
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB000564",
@@ -11558,6 +11608,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 29.5
+  },
+  {
+    "clues_imb": "TCIMB000622",
+    "nombre_de_la_unidad": "CENTRO DE SALUD C.S.R.D.1 N.B. POBLADO FCO. I. MADERO CENTLA TABASCO",
+    "entidad": "TABASCO",
+    "lat": 18.466014,
+    "lng": -92.741021,
+    "internet": true,
+    "consultorios": 3.0,
+    "pct_llenado": 16.7
   },
   {
     "clues_imb": "TCIMB000634",
@@ -11657,7 +11717,7 @@
     "lng": -92.903103,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 34.1
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB000861",
@@ -11697,7 +11757,7 @@
     "lng": -92.941408,
     "internet": true,
     "consultorios": 3.0,
-    "pct_llenado": 95.5
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB000926",
@@ -11707,7 +11767,7 @@
     "lng": -93.022788,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 4.5
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB000960",
@@ -11718,6 +11778,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 50.0
+  },
+  {
+    "clues_imb": "TCIMB001013",
+    "nombre_de_la_unidad": "C.S. DOS MONTES",
+    "entidad": "TABASCO",
+    "lat": 17.98525,
+    "lng": -92.825928,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB001030",
@@ -11736,6 +11806,16 @@
     "lat": 17.792472,
     "lng": -92.939608,
     "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "TCIMB001124",
+    "nombre_de_la_unidad": "C.S. MEDELLÍN Y PIGUA 2DA.",
+    "entidad": "TABASCO",
+    "lat": 18.04704,
+    "lng": -92.901627,
+    "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
   },
@@ -12230,6 +12310,16 @@
     "pct_llenado": 45.5
   },
   {
+    "clues_imb": "TCIMB004460",
+    "nombre_de_la_unidad": "C.S. GONZÁLEZ 3RA.",
+    "entidad": "TABASCO",
+    "lat": 17.980706,
+    "lng": -93.0773843,
+    "internet": true,
+    "consultorios": 3.0,
+    "pct_llenado": 38.6
+  },
+  {
     "clues_imb": "TCIMB004496",
     "nombre_de_la_unidad": "C.S. GONZÁLEZ 2DA.",
     "entidad": "TABASCO",
@@ -12237,7 +12327,7 @@
     "lng": -93.092359,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 25.0
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB004501",
