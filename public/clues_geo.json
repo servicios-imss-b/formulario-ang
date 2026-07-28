@@ -240,6 +240,16 @@
     "pct_llenado": 4.5
   },
   {
+    "clues_imb": "BSIMB000305",
+    "nombre_de_la_unidad": "CENTRO DE SALUD SAN ANTONIO",
+    "entidad": "BAJA CALIFORNIA SUR",
+    "lat": 23.8070605136214,
+    "lng": -110.057817558027,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
     "clues_imb": "BSIMB000310",
     "nombre_de_la_unidad": "CENTRO DE SALUD SAN BARTOLO",
     "entidad": "BAJA CALIFORNIA SUR",
@@ -407,7 +417,17 @@
     "lng": -90.430502,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 6.8
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "CCIMB000126",
+    "nombre_de_la_unidad": "CENTRO DE SALUD IMÍ",
+    "entidad": "CAMPECHE",
+    "lat": 19.875567,
+    "lng": -90.473944,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "CCIMB000184",
@@ -1218,6 +1238,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "DFIMB000084",
+    "nombre_de_la_unidad": "C.S.T-I SANTA INÉS",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.4927259,
+    "lng": -99.189837,
+    "internet": false,
+    "consultorios": 2.0,
+    "pct_llenado": 18.2
   },
   {
     "clues_imb": "GRIMB000041",
@@ -11987,7 +12017,7 @@
     "lng": -92.803768,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 25.0
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB003813",
@@ -12117,7 +12147,7 @@
     "lng": -92.9111,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 12.5
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB004525",
@@ -12237,7 +12267,7 @@
     "lng": -92.9061,
     "internet": true,
     "consultorios": 4.0,
-    "pct_llenado": 42.6
+    "pct_llenado": 96.6
   },
   {
     "clues_imb": "TCIMB005336",
