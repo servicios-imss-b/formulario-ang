@@ -180,6 +180,16 @@
     "pct_llenado": 95.5
   },
   {
+    "clues_imb": "BSIMB000182",
+    "nombre_de_la_unidad": "CENTRO DE SALUD VILLA ALBERTO A. ALVARADO ARAMBURO",
+    "entidad": "BAJA CALIFORNIA SUR",
+    "lat": 27.6438265582216,
+    "lng": -113.388182316175,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 38.6
+  },
+  {
     "clues_imb": "BSIMB000194",
     "nombre_de_la_unidad": "CENTRO DE SALUD OLACHEA, LA PAZ",
     "entidad": "BAJA CALIFORNIA SUR",
@@ -267,7 +277,7 @@
     "lng": -109.66998619816,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 68.2
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "BSIMB000445",
@@ -330,6 +340,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "BSIMB000684",
+    "nombre_de_la_unidad": null,
+    "entidad": "BAJA CALIFORNIA SUR",
+    "lat": 23.5906552895151,
+    "lng": -109.592003723692,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 6.8
+  },
+  {
     "clues_imb": "BSIMB000725",
     "nombre_de_la_unidad": "CENTRO DE SALUD DR. FRANCISCO CARDOZA CARBALLO",
     "entidad": "BAJA CALIFORNIA SUR",
@@ -338,6 +358,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 25.0
+  },
+  {
+    "clues_imb": "BSIMB000730",
+    "nombre_de_la_unidad": "CENTRO DE SALUD LEONARDO GASTELUM",
+    "entidad": "BAJA CALIFORNIA SUR",
+    "lat": 22.9472190725408,
+    "lng": -109.922692808487,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "BSIMB000771",
@@ -5767,7 +5797,7 @@
     "lng": -99.2329702,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 72.7
+    "pct_llenado": 84.1
   },
   {
     "clues_imb": "MCIMB000943",
@@ -5817,7 +5847,7 @@
     "lng": -99.2515397,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 86.4
+    "pct_llenado": 90.9
   },
   {
     "clues_imb": "MCIMB000996",
@@ -11440,6 +11470,16 @@
     "pct_llenado": 88.6
   },
   {
+    "clues_imb": "TCIMB000593",
+    "nombre_de_la_unidad": "C. S. RA. CHILAPA M/IZQUIERDA",
+    "entidad": "TABASCO",
+    "lat": 18.217893,
+    "lng": -92.686491,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 38.6
+  },
+  {
     "clues_imb": "TCIMB000610",
     "nombre_de_la_unidad": "C. S. EJ. FELIPE CARRILLO PUERTO",
     "entidad": "TABASCO",
@@ -11460,6 +11500,26 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "TCIMB000646",
+    "nombre_de_la_unidad": "C. S. VILLA IGNACIO ALLENDE",
+    "entidad": "TABASCO",
+    "lat": 18.382985,
+    "lng": -92.85439,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 56.8
+  },
+  {
+    "clues_imb": "TCIMB000651",
+    "nombre_de_la_unidad": "CENTRO DE SALUD R/A JALAPITA 1RA. SECC CENTLA TABASCO",
+    "entidad": "TABASCO",
+    "lat": 18.4132824,
+    "lng": -92.9904014,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 31.8
+  },
+  {
     "clues_imb": "TCIMB000663",
     "nombre_de_la_unidad": "C. S. RA. LIBERTAD DE ALLENDE",
     "entidad": "TABASCO",
@@ -11470,6 +11530,16 @@
     "pct_llenado": 38.6
   },
   {
+    "clues_imb": "TCIMB000692",
+    "nombre_de_la_unidad": "C.S. RA. TABASQUILLO 1A.",
+    "entidad": "TABASCO",
+    "lat": 18.360619,
+    "lng": -92.722847,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 36.4
+  },
+  {
     "clues_imb": "TCIMB000721",
     "nombre_de_la_unidad": "C. S. EJ LA SABANAS",
     "entidad": "TABASCO",
@@ -11477,7 +11547,7 @@
     "lng": -92.887224,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 52.3
+    "pct_llenado": 90.9
   },
   {
     "clues_imb": "TCIMB000745",
@@ -11516,8 +11586,8 @@
     "lat": 17.981482,
     "lng": -92.941408,
     "internet": true,
-    "consultorios": 1.0,
-    "pct_llenado": 100.0
+    "consultorios": 3.0,
+    "pct_llenado": 56.1
   },
   {
     "clues_imb": "TCIMB000960",
@@ -11546,8 +11616,18 @@
     "lat": 17.8444765,
     "lng": -92.8769786,
     "internet": false,
+    "consultorios": 2.0,
+    "pct_llenado": 46.6
+  },
+  {
+    "clues_imb": "TCIMB001206",
+    "nombre_de_la_unidad": "C.S. RÍO VIEJO 1RA.",
+    "entidad": "TABASCO",
+    "lat": 17.9523,
+    "lng": -92.9864,
+    "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 38.6
+    "pct_llenado": 77.3
   },
   {
     "clues_imb": "TCIMB001223",
@@ -11557,7 +11637,17 @@
     "lng": -92.8923,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 11.4
+    "pct_llenado": 95.5
+  },
+  {
+    "clues_imb": "TCIMB001235",
+    "nombre_de_la_unidad": "C.S. TORNO LARGO 2DA.",
+    "entidad": "TABASCO",
+    "lat": 17.9142301521601,
+    "lng": -92.8966585067611,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 36.4
   },
   {
     "clues_imb": "TCIMB001853",
@@ -11870,6 +11960,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "TCIMB003784",
+    "nombre_de_la_unidad": "C.S. IGNACIO ZARAGOZA",
+    "entidad": "TABASCO",
+    "lat": 18.40280556,
+    "lng": -92.96152778,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 79.5
+  },
+  {
     "clues_imb": "TCIMB003813",
     "nombre_de_la_unidad": "C.S. FRANCISCO VILLA",
     "entidad": "TABASCO",
@@ -11888,6 +11988,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "TCIMB003900",
+    "nombre_de_la_unidad": null,
+    "entidad": "TABASCO",
+    "lat": 17.872057,
+    "lng": -92.9164856,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 36.4
   },
   {
     "clues_imb": "TCIMB003924",
@@ -11947,7 +12057,7 @@
     "lng": -93.0565182179387,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 79.5
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB004426",
@@ -11957,7 +12067,17 @@
     "lng": -93.12273,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 48.9
+    "pct_llenado": 78.4
+  },
+  {
+    "clues_imb": "TCIMB004455",
+    "nombre_de_la_unidad": "C.S. MEDELLÍN Y PIGUA 1RA.",
+    "entidad": "TABASCO",
+    "lat": 18.02906,
+    "lng": -92.91198,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 45.5
   },
   {
     "clues_imb": "TCIMB004496",
@@ -11987,7 +12107,7 @@
     "lng": -92.661139,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 4.5
+    "pct_llenado": 72.7
   },
   {
     "clues_imb": "TCIMB004595",
@@ -12000,6 +12120,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "TCIMB004600",
+    "nombre_de_la_unidad": "C.S. EL ESPINO",
+    "entidad": "TABASCO",
+    "lat": 18.2508628771573,
+    "lng": -92.833523832017,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 97.7
+  },
+  {
     "clues_imb": "TCIMB004665",
     "nombre_de_la_unidad": "CESSA BUENA VISTA ZONA INDIGENA YOKOT´AN",
     "entidad": "TABASCO",
@@ -12007,7 +12137,7 @@
     "lng": -92.75519,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 10.2
+    "pct_llenado": 81.8
   },
   {
     "clues_imb": "TCIMB004694",
@@ -12058,6 +12188,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 50.0
+  },
+  {
+    "clues_imb": "TCIMB005126",
+    "nombre_de_la_unidad": "C.S. SAN JOSÉ GAVIOTAS",
+    "entidad": "TABASCO",
+    "lat": 17.9813,
+    "lng": -92.9061,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 52.3
   },
   {
     "clues_imb": "TCIMB005336",
