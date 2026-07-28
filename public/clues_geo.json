@@ -366,8 +366,8 @@
     "lat": 24.1523332521107,
     "lng": -110.309359324655,
     "internet": true,
-    "consultorios": 1.0,
-    "pct_llenado": 25.0
+    "consultorios": 3.0,
+    "pct_llenado": 11.4
   },
   {
     "clues_imb": "BSIMB000730",
@@ -398,6 +398,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "CCIMB000085",
+    "nombre_de_la_unidad": "CENTRO DE SALUD DR. WILBERTH ESCALANTE",
+    "entidad": "CAMPECHE",
+    "lat": 19.843712,
+    "lng": -90.540978,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 86.4
   },
   {
     "clues_imb": "CCIMB000090",
@@ -518,6 +528,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 86.4
+  },
+  {
+    "clues_imb": "CCIMB000592",
+    "nombre_de_la_unidad": "CENTRO DE SALUD NUEVO PROGRESO II",
+    "entidad": "CAMPECHE",
+    "lat": 18.62197,
+    "lng": -90.914969,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 9.1
   },
   {
     "clues_imb": "CCIMB000773",
@@ -5767,7 +5787,7 @@
     "lng": -100.368934,
     "internet": true,
     "consultorios": 3.0,
-    "pct_llenado": 84.8
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB000733",
@@ -7377,7 +7397,7 @@
     "lng": -99.617549,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 29.5
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB008346",
@@ -7927,7 +7947,7 @@
     "lng": -99.565079,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 27.3
+    "pct_llenado": 39.8
   },
   {
     "clues_imb": "MCIMB012312",
@@ -11310,6 +11330,16 @@
     "pct_llenado": 4.5
   },
   {
+    "clues_imb": "SRIMB001083",
+    "nombre_de_la_unidad": "CENTRO DE SALUD RURAL PLAN DE AYALA",
+    "entidad": "SONORA",
+    "lat": 28.5682,
+    "lng": -111.555,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 90.9
+  },
+  {
     "clues_imb": "SRIMB001882",
     "nombre_de_la_unidad": "CENTRO DE SALUD RURAL SOYOPA",
     "entidad": "SONORA",
@@ -11500,6 +11530,16 @@
     "pct_llenado": 88.6
   },
   {
+    "clues_imb": "TCIMB000576",
+    "nombre_de_la_unidad": "C. S. VILLA CUAUHTEMOC",
+    "entidad": "TABASCO",
+    "lat": 18.40124,
+    "lng": -92.956802,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 97.7
+  },
+  {
     "clues_imb": "TCIMB000593",
     "nombre_de_la_unidad": "C. S. RA. CHILAPA M/IZQUIERDA",
     "entidad": "TABASCO",
@@ -11567,7 +11607,7 @@
     "lng": -92.561409,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 22.7
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB000692",
@@ -11627,7 +11667,7 @@
     "lng": -92.969695,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 6.8
+    "pct_llenado": 11.4
   },
   {
     "clues_imb": "TCIMB000885",
@@ -11660,6 +11700,26 @@
     "pct_llenado": 50.0
   },
   {
+    "clues_imb": "TCIMB001030",
+    "nombre_de_la_unidad": "C.S. GUINEO 1RA.",
+    "entidad": "TABASCO",
+    "lat": 17.927084,
+    "lng": -93.024869,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 90.9
+  },
+  {
+    "clues_imb": "TCIMB001042",
+    "nombre_de_la_unidad": "C.S. HUASTECA 2DA.",
+    "entidad": "TABASCO",
+    "lat": 17.792472,
+    "lng": -92.939608,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
     "clues_imb": "TCIMB001165",
     "nombre_de_la_unidad": "C.S. CORONEL TRACONIS",
     "entidad": "TABASCO",
@@ -11686,8 +11746,8 @@
     "lat": 17.9523,
     "lng": -92.9864,
     "internet": true,
-    "consultorios": 1.0,
-    "pct_llenado": 100.0
+    "consultorios": 3.0,
+    "pct_llenado": 62.9
   },
   {
     "clues_imb": "TCIMB001223",
@@ -12246,8 +12306,8 @@
     "lat": 18.341173,
     "lng": -92.808406,
     "internet": true,
-    "consultorios": 1.0,
-    "pct_llenado": 4.5
+    "consultorios": 2.0,
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB004752",
