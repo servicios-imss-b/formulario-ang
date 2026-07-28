@@ -1240,16 +1240,6 @@
     "pct_llenado": 100.0
   },
   {
-    "clues_imb": "DFIMB000084",
-    "nombre_de_la_unidad": "C.S.T-I SANTA INÉS",
-    "entidad": "CIUDAD DE MEXICO",
-    "lat": 19.4927259,
-    "lng": -99.189837,
-    "internet": false,
-    "consultorios": 2.0,
-    "pct_llenado": 18.2
-  },
-  {
     "clues_imb": "GRIMB000041",
     "nombre_de_la_unidad": "U-01 COL. JARDIN PALMAS I",
     "entidad": "GUERRERO",
@@ -8540,6 +8530,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "MSIMB001226",
+    "nombre_de_la_unidad": "CENTRO DE SALUD SANTO DOMINGO OCOTITLÁN",
+    "entidad": "MORELOS",
+    "lat": 19.0049,
+    "lng": -99.0338,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
     "clues_imb": "MSIMB002083",
     "nombre_de_la_unidad": "CENTRO DE SALUD SANTA MA. AHUACATITLÁN",
     "entidad": "MORELOS",
@@ -11560,6 +11560,16 @@
     "pct_llenado": 38.6
   },
   {
+    "clues_imb": "TCIMB000680",
+    "nombre_de_la_unidad": "CENTRO DE SALUD POBLADO QUINTÍN ARAUZ CENTLA TABASCO",
+    "entidad": "TABASCO",
+    "lat": 18.322598,
+    "lng": -92.561409,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 22.7
+  },
+  {
     "clues_imb": "TCIMB000692",
     "nombre_de_la_unidad": "C.S. RA. TABASQUILLO 1A.",
     "entidad": "TABASCO",
@@ -11578,6 +11588,16 @@
     "internet": false,
     "consultorios": 1.0,
     "pct_llenado": 90.9
+  },
+  {
+    "clues_imb": "TCIMB000733",
+    "nombre_de_la_unidad": "C. S. RA. LA MIXTECA 2DA.",
+    "entidad": "TABASCO",
+    "lat": 18.1014875163976,
+    "lng": -92.5816497220008,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB000745",
@@ -11667,7 +11687,7 @@
     "lng": -92.9864,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 77.3
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB001223",
@@ -12275,6 +12295,16 @@
     "entidad": "TABASCO",
     "lat": 17.9119,
     "lng": -92.9178,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "TCIMB005510",
+    "nombre_de_la_unidad": "C.S. LAGARTERA 2DA.",
+    "entidad": "TABASCO",
+    "lat": 18.0786,
+    "lng": -92.8632,
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
