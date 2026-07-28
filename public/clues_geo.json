@@ -237,7 +237,7 @@
     "lng": -109.934723252289,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 4.5
+    "pct_llenado": 27.3
   },
   {
     "clues_imb": "BSIMB000305",
@@ -11650,6 +11650,16 @@
     "pct_llenado": 15.9
   },
   {
+    "clues_imb": "TCIMB000856",
+    "nombre_de_la_unidad": "C.S. COL. CASA BLANCA",
+    "entidad": "TABASCO",
+    "lat": 18.008246,
+    "lng": -92.903103,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 34.1
+  },
+  {
     "clues_imb": "TCIMB000861",
     "nombre_de_la_unidad": "CESSA GAVIOTAS",
     "entidad": "TABASCO",
@@ -11687,7 +11697,7 @@
     "lng": -92.941408,
     "internet": true,
     "consultorios": 3.0,
-    "pct_llenado": 56.1
+    "pct_llenado": 95.5
   },
   {
     "clues_imb": "TCIMB000926",
