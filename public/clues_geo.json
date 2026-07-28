@@ -267,7 +267,7 @@
     "lng": -109.66998619816,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 13.6
+    "pct_llenado": 68.2
   },
   {
     "clues_imb": "BSIMB000445",
@@ -5747,7 +5747,7 @@
     "lng": -99.243431,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 46.6
+    "pct_llenado": 52.3
   },
   {
     "clues_imb": "MCIMB000926",
@@ -7711,13 +7711,13 @@
   },
   {
     "clues_imb": "MCIMB009355",
-    "nombre_de_la_unidad": null,
+    "nombre_de_la_unidad": "CENTRO DE SALUD EL POTRERO",
     "entidad": "MEXICO",
     "lat": 19.5476722,
     "lng": -99.2371,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 27.3
+    "pct_llenado": 75.0
   },
   {
     "clues_imb": "MCIMB009524",
@@ -11440,6 +11440,16 @@
     "pct_llenado": 88.6
   },
   {
+    "clues_imb": "TCIMB000610",
+    "nombre_de_la_unidad": "C. S. EJ. FELIPE CARRILLO PUERTO",
+    "entidad": "TABASCO",
+    "lat": 18.505582,
+    "lng": -92.699437,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 29.5
+  },
+  {
     "clues_imb": "TCIMB000634",
     "nombre_de_la_unidad": "C. S. COL GOBERNADOR CRUZ",
     "entidad": "TABASCO",
@@ -11448,6 +11458,36 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "TCIMB000663",
+    "nombre_de_la_unidad": "C. S. RA. LIBERTAD DE ALLENDE",
+    "entidad": "TABASCO",
+    "lat": 18.407387,
+    "lng": -92.82972,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 38.6
+  },
+  {
+    "clues_imb": "TCIMB000721",
+    "nombre_de_la_unidad": "C. S. EJ LA SABANAS",
+    "entidad": "TABASCO",
+    "lat": 18.442225,
+    "lng": -92.887224,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 52.3
+  },
+  {
+    "clues_imb": "TCIMB000745",
+    "nombre_de_la_unidad": "C. S. COL. ADOLFO LOPEZ MATEOS",
+    "entidad": "TABASCO",
+    "lat": 18.408169,
+    "lng": -92.953253,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 15.9
   },
   {
     "clues_imb": "TCIMB000873",
@@ -11498,6 +11538,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "TCIMB001182",
+    "nombre_de_la_unidad": "C.S. PUEBLO NUEVO",
+    "entidad": "TABASCO",
+    "lat": 17.8444765,
+    "lng": -92.8769786,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 38.6
   },
   {
     "clues_imb": "TCIMB001223",
@@ -11906,8 +11956,8 @@
     "lat": 17.95497,
     "lng": -93.12273,
     "internet": true,
-    "consultorios": 1.0,
-    "pct_llenado": 36.4
+    "consultorios": 2.0,
+    "pct_llenado": 48.9
   },
   {
     "clues_imb": "TCIMB004496",
@@ -11917,7 +11967,7 @@
     "lng": -93.092359,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 4.5
+    "pct_llenado": 25.0
   },
   {
     "clues_imb": "TCIMB004554",
@@ -11947,7 +11997,7 @@
     "lng": -92.776257,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 88.6
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB004665",
