@@ -187,7 +187,7 @@
     "lng": -113.388182316175,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 38.6
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "BSIMB000194",
@@ -347,7 +347,7 @@
     "lng": -109.592003723692,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 6.8
+    "pct_llenado": 97.7
   },
   {
     "clues_imb": "BSIMB000725",
@@ -5867,7 +5867,7 @@
     "lng": -99.243759,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 76.1
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB001276",
@@ -11477,7 +11477,7 @@
     "lng": -92.686491,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 38.6
+    "pct_llenado": 72.7
   },
   {
     "clues_imb": "TCIMB000610",
@@ -11507,7 +11507,7 @@
     "lng": -92.85439,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 56.8
+    "pct_llenado": 95.5
   },
   {
     "clues_imb": "TCIMB000651",
@@ -11537,7 +11537,7 @@
     "lng": -92.722847,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 36.4
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB000721",
@@ -11558,6 +11558,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 15.9
+  },
+  {
+    "clues_imb": "TCIMB000861",
+    "nombre_de_la_unidad": "CESSA GAVIOTAS",
+    "entidad": "TABASCO",
+    "lat": 17.982823,
+    "lng": -92.918858,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 90.9
   },
   {
     "clues_imb": "TCIMB000873",
@@ -11970,6 +11980,16 @@
     "pct_llenado": 79.5
   },
   {
+    "clues_imb": "TCIMB003796",
+    "nombre_de_la_unidad": "C.S. SIMÓN SARLAT (COL CAPORROSA)",
+    "entidad": "TABASCO",
+    "lat": 18.345466,
+    "lng": -92.803768,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 25.0
+  },
+  {
     "clues_imb": "TCIMB003813",
     "nombre_de_la_unidad": "C.S. FRANCISCO VILLA",
     "entidad": "TABASCO",
@@ -12090,6 +12110,26 @@
     "pct_llenado": 25.0
   },
   {
+    "clues_imb": "TCIMB004501",
+    "nombre_de_la_unidad": "C.S. HUAPINOL",
+    "entidad": "TABASCO",
+    "lat": 17.9231,
+    "lng": -92.9111,
+    "internet": true,
+    "consultorios": 2.0,
+    "pct_llenado": 12.5
+  },
+  {
+    "clues_imb": "TCIMB004525",
+    "nombre_de_la_unidad": "C.S. TUMBULUSHAL",
+    "entidad": "TABASCO",
+    "lat": 17.8215314840897,
+    "lng": -92.9281835704623,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 45.5
+  },
+  {
     "clues_imb": "TCIMB004554",
     "nombre_de_la_unidad": "C.S. COCOYOL",
     "entidad": "TABASCO",
@@ -12137,7 +12177,7 @@
     "lng": -92.75519,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 81.8
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB004694",
@@ -12196,8 +12236,8 @@
     "lat": 17.9813,
     "lng": -92.9061,
     "internet": true,
-    "consultorios": 1.0,
-    "pct_llenado": 52.3
+    "consultorios": 4.0,
+    "pct_llenado": 42.6
   },
   {
     "clues_imb": "TCIMB005336",
@@ -12205,7 +12245,7 @@
     "entidad": "TABASCO",
     "lat": 17.9119,
     "lng": -92.9178,
-    "internet": false,
+    "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
   },
