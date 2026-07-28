@@ -6657,7 +6657,7 @@
     "lng": -98.993548,
     "internet": true,
     "consultorios": 8.0,
-    "pct_llenado": 84.7
+    "pct_llenado": 84.9
   },
   {
     "clues_imb": "MCIMB004052",
@@ -7947,7 +7947,7 @@
     "lng": -99.565079,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 39.8
+    "pct_llenado": 59.1
   },
   {
     "clues_imb": "MCIMB012312",
@@ -11337,7 +11337,7 @@
     "lng": -111.555,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 90.9
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "SRIMB001882",
@@ -11690,6 +11690,16 @@
     "pct_llenado": 56.1
   },
   {
+    "clues_imb": "TCIMB000926",
+    "nombre_de_la_unidad": "C.S. ANACLETO CANABAL 2DA.",
+    "entidad": "TABASCO",
+    "lat": 17.977272,
+    "lng": -93.022788,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 4.5
+  },
+  {
     "clues_imb": "TCIMB000960",
     "nombre_de_la_unidad": "C.S. BUENA VISTA 1RA.",
     "entidad": "TABASCO",
@@ -11747,7 +11757,7 @@
     "lng": -92.9864,
     "internet": true,
     "consultorios": 3.0,
-    "pct_llenado": 62.9
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "TCIMB001223",
