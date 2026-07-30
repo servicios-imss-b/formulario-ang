@@ -210,6 +210,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "BSIMB000211",
+    "nombre_de_la_unidad": "CENTRO DE SALUD FLORES MAGÓN, LA PAZ",
+    "entidad": "BAJA CALIFORNIA SUR",
+    "lat": 24.1282903838349,
+    "lng": -110.299788145709,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 36.4
+  },
+  {
     "clues_imb": "BSIMB000235",
     "nombre_de_la_unidad": "CENTRO DE SALUD LÁZARO CÁRDENAS, LA PAZ",
     "entidad": "BAJA CALIFORNIA SUR",
@@ -281,13 +291,13 @@
   },
   {
     "clues_imb": "BSIMB000363",
-    "nombre_de_la_unidad": null,
+    "nombre_de_la_unidad": "CENTRO DE SALUD CON SERVICIOS AMPLIADOS CABO SAN LUCAS",
     "entidad": "BAJA CALIFORNIA SUR",
     "lat": 22.8916078443454,
     "lng": -109.916240908149,
-    "internet": false,
+    "internet": true,
     "consultorios": 6.0,
-    "pct_llenado": 20.8
+    "pct_llenado": 38.6
   },
   {
     "clues_imb": "BSIMB000392",
@@ -347,7 +357,7 @@
     "lng": -109.704905668787,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 77.3
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "BSIMB000515",
@@ -828,6 +838,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "CMIMB000511",
+    "nombre_de_la_unidad": "CENTRO DE SALUD ZINACAMITLÁN",
+    "entidad": "COLIMA",
+    "lat": 18.9794,
+    "lng": -103.6961,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 6.8
   },
   {
     "clues_imb": "CMIMB000523",
@@ -1350,6 +1370,16 @@
     "pct_llenado": 2.3
   },
   {
+    "clues_imb": "DFIMB000171",
+    "nombre_de_la_unidad": "C.S.T-III DR. GALO SOBERÓN Y PARRA",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.472021,
+    "lng": -99.17953,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 59.1
+  },
+  {
     "clues_imb": "DFIMB000241",
     "nombre_de_la_unidad": "C.S.T-II AJUSCO",
     "entidad": "CIUDAD DE MEXICO",
@@ -1358,6 +1388,16 @@
     "internet": true,
     "consultorios": 2.0,
     "pct_llenado": 94.3
+  },
+  {
+    "clues_imb": "DFIMB000265",
+    "nombre_de_la_unidad": "C.S.T-II NAYARITAS",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.32203,
+    "lng": -99.153105,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 18.2
   },
   {
     "clues_imb": "DFIMB000521",
@@ -1377,7 +1417,97 @@
     "lng": -99.13873,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 15.9
+    "pct_llenado": 43.2
+  },
+  {
+    "clues_imb": "DFIMB000656",
+    "nombre_de_la_unidad": "C.S.T-II PRADERA",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.47943,
+    "lng": -99.06965,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 38.6
+  },
+  {
+    "clues_imb": "DFIMB000661",
+    "nombre_de_la_unidad": "C.S.T-II 25 DE JULIO",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.49563,
+    "lng": -99.08068,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 77.3
+  },
+  {
+    "clues_imb": "DFIMB000714",
+    "nombre_de_la_unidad": "C.S.T-III DR. RAFAEL RAMÍREZ SUÁREZ",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.49267,
+    "lng": -99.14218,
+    "internet": true,
+    "consultorios": 5.0,
+    "pct_llenado": 3.2
+  },
+  {
+    "clues_imb": "DFIMB000726",
+    "nombre_de_la_unidad": "C.S.T-III NUEVA ATZACOALCO",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.49632,
+    "lng": -99.08625,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 81.8
+  },
+  {
+    "clues_imb": "DFIMB001134",
+    "nombre_de_la_unidad": "C.S.T-II SAN BARTOLO AMEYALCO",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.32739,
+    "lng": -99.2465599999999,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "DFIMB001320",
+    "nombre_de_la_unidad": "C.S.T-III DR. IGNACIO MORONES PRIETO",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.33347027,
+    "lng": -99.2724817138867,
+    "internet": true,
+    "consultorios": 2.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "DFIMB001332",
+    "nombre_de_la_unidad": "C.S.T-III AMPLIACIÓN PRESIDENTES",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.38026,
+    "lng": -99.224896,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "DFIMB001361",
+    "nombre_de_la_unidad": "C.S.T-III DR. MANUEL ESCONTRIA",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.342598,
+    "lng": -99.193713,
+    "internet": true,
+    "consultorios": 2.0,
+    "pct_llenado": 60.2
+  },
+  {
+    "clues_imb": "DFIMB001373",
+    "nombre_de_la_unidad": "C.S.T-III DR. MANUEL B. MÁRQUEZ ESCOBEDO",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.370912,
+    "lng": -99.213048,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 6.8
   },
   {
     "clues_imb": "DFIMB001600",
@@ -1407,7 +1537,17 @@
     "lng": -99.221917,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 9.1
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "DFIMB001670",
+    "nombre_de_la_unidad": "C.S.T-III DR. JOSÉ CASTRO VILLAGRANA",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.293312,
+    "lng": -99.1666199999999,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "DFIMB001682",
@@ -1430,6 +1570,46 @@
     "pct_llenado": 92.0
   },
   {
+    "clues_imb": "DFIMB001764",
+    "nombre_de_la_unidad": "C.S.T-II SANTA CRUZ ACALPIXCA",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.245777,
+    "lng": -99.0683209999999,
+    "internet": true,
+    "consultorios": 4.0,
+    "pct_llenado": 86.9
+  },
+  {
+    "clues_imb": "DFIMB001781",
+    "nombre_de_la_unidad": "C.S.T-II SANTA MARÍA NATIVITAS",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.246606,
+    "lng": -99.0943009999999,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 6.8
+  },
+  {
+    "clues_imb": "DFIMB001945",
+    "nombre_de_la_unidad": "C.S.T-III SOLEDAD OROZCO DE ÁVILA CAMACHO",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.45866,
+    "lng": -99.13326,
+    "internet": true,
+    "consultorios": 7.0,
+    "pct_llenado": 89.3
+  },
+  {
+    "clues_imb": "DFIMB001974",
+    "nombre_de_la_unidad": "C.S.T-III DR. JOSÉ MA. RODRÍGUEZ",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.40426,
+    "lng": -99.13619,
+    "internet": true,
+    "consultorios": 2.0,
+    "pct_llenado": 89.8
+  },
+  {
     "clues_imb": "DFIMB002295",
     "nombre_de_la_unidad": "CENTRO DE SALUD T-III DR. SALVADOR ALLENDE CON CLÍNICA DE ESPECIALIDADES",
     "entidad": "CIUDAD DE MEXICO",
@@ -1438,6 +1618,66 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 4.5
+  },
+  {
+    "clues_imb": "DFIMB002312",
+    "nombre_de_la_unidad": "CENTRO DE SALUD T-III JALALPA EL GRANDE",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.372029,
+    "lng": -99.238574,
+    "internet": true,
+    "consultorios": 5.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "DFIMB002452",
+    "nombre_de_la_unidad": "CENTRO DE SALUD T III LOMAS DE LA ERA ",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.33178,
+    "lng": -99.258839,
+    "internet": true,
+    "consultorios": 6.0,
+    "pct_llenado": 5.7
+  },
+  {
+    "clues_imb": "DFIMB002464",
+    "nombre_de_la_unidad": "CENTRO DE SALUD T-II SANTA ROSA XOCHIAC",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.33718,
+    "lng": -99.2794,
+    "internet": true,
+    "consultorios": 2.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "DFIMB002476",
+    "nombre_de_la_unidad": "CENTRO DE SALUD T I CORPUS CHRISTY ",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.363342,
+    "lng": -99.247528,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "DFIMB002522",
+    "nombre_de_la_unidad": "CENTRO DE SALUD TII EL PIRU",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.381408,
+    "lng": -99.21735,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "DFIMB002534",
+    "nombre_de_la_unidad": "CENTRO DE SALUD T-I ZÓCALO",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.43269,
+    "lng": -99.13419,
+    "internet": false,
+    "consultorios": 2.0,
+    "pct_llenado": 45.5
   },
   {
     "clues_imb": "DFIMB003164",
@@ -8820,6 +9060,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "MSIMB002276",
+    "nombre_de_la_unidad": "CENTRO DE SALUD CHIPITLAN",
+    "entidad": "MORELOS",
+    "lat": 18.89708,
+    "lng": -99.22907,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
     "clues_imb": "MSIMB002281",
     "nombre_de_la_unidad": "CENTRO DE SALUD TEJALPA",
     "entidad": "MORELOS",
@@ -10326,8 +10576,8 @@
     "lat": 19.7157341589151,
     "lng": -88.8663877693052,
     "internet": true,
-    "consultorios": 1.0,
-    "pct_llenado": 100.0
+    "consultorios": 2.0,
+    "pct_llenado": 98.9
   },
   {
     "clues_imb": "QRIMB001355",
@@ -11620,6 +11870,16 @@
     "pct_llenado": 88.6
   },
   {
+    "clues_imb": "SRIMB000890",
+    "nombre_de_la_unidad": "CENTRO AVANZADO DE ATENCIÓN PRIMARÍA A LA SALUD",
+    "entidad": "SONORA",
+    "lat": 29.09954,
+    "lng": -110.975088,
+    "internet": true,
+    "consultorios": 3.0,
+    "pct_llenado": 10.6
+  },
+  {
     "clues_imb": "SRIMB000943",
     "nombre_de_la_unidad": "CENTRO DE SALUD URBANO SANTA ISABEL",
     "entidad": "SONORA",
@@ -11695,6 +11955,16 @@
     "entidad": "SONORA",
     "lat": 29.077431,
     "lng": -110.92699,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "SRIMB001030",
+    "nombre_de_la_unidad": "CENTRO DE SALUD URBANO SAHUARO",
+    "entidad": "SONORA",
+    "lat": 29.101803,
+    "lng": -111.005592,
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
@@ -11838,6 +12108,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 20.5
+  },
+  {
+    "clues_imb": "SRIMB002331",
+    "nombre_de_la_unidad": "CENTRO DE SALUD POBLADO MIGUEL ALEMÁN II",
+    "entidad": "SONORA",
+    "lat": 28.849403,
+    "lng": -111.501237,
+    "internet": true,
+    "consultorios": 2.0,
+    "pct_llenado": 77.3
   },
   {
     "clues_imb": "SRIMB002343",
