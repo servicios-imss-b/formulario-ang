@@ -990,6 +990,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "CMIMB000820",
+    "nombre_de_la_unidad": "CENTRO DE SALUD EL TERRERO",
+    "entidad": "COLIMA",
+    "lat": 19.4447,
+    "lng": -103.9501,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 9.1
+  },
+  {
     "clues_imb": "CMIMB001001",
     "nombre_de_la_unidad": "CENTRO DE SALUD URBANO SOLIDARIDAD",
     "entidad": "COLIMA",
@@ -6177,7 +6187,7 @@
     "lng": -98.929523,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 88.6
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB001853",
@@ -6417,7 +6427,7 @@
     "lng": -99.0424,
     "internet": true,
     "consultorios": 6.0,
-    "pct_llenado": 71.2
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB002261",
@@ -8087,7 +8097,7 @@
     "lng": -99.0696,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 83.0
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB011180",
@@ -11767,7 +11777,7 @@
     "lng": -110.725,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 22.7
+    "pct_llenado": 63.6
   },
   {
     "clues_imb": "SRIMB001800",
