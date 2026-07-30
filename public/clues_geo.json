@@ -340,6 +340,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "BSIMB000486",
+    "nombre_de_la_unidad": null,
+    "entidad": "BAJA CALIFORNIA SUR",
+    "lat": 23.090288244469,
+    "lng": -109.704905668787,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 77.3
+  },
+  {
     "clues_imb": "BSIMB000515",
     "nombre_de_la_unidad": "CENTRO DE SALUD EL CARIBE, CABO SAN LUCAS",
     "entidad": "BAJA CALIFORNIA SUR",
@@ -5997,7 +6007,7 @@
     "lng": -99.243431,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 52.3
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB000926",
@@ -6017,7 +6027,7 @@
     "lng": -99.2329702,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 84.1
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB000943",
@@ -6067,7 +6077,7 @@
     "lng": -99.2515397,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 90.9
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB000996",
@@ -7967,7 +7977,7 @@
     "lng": -99.2371,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 75.0
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "MCIMB009524",
