@@ -300,6 +300,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "BSIMB000375",
+    "nombre_de_la_unidad": "CENTRO DE SALUD LOS VENADOS. CABO SAN LUCAS",
+    "entidad": "BAJA CALIFORNIA SUR",
+    "lat": 22.897349634215,
+    "lng": -109.939262364339,
+    "internet": true,
+    "consultorios": 2.0,
+    "pct_llenado": 100.0
+  },
+  {
     "clues_imb": "BSIMB000392",
     "nombre_de_la_unidad": "CENTRO DE SALUD LA PLAYA",
     "entidad": "BAJA CALIFORNIA SUR",
@@ -847,7 +857,7 @@
     "lng": -103.6961,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 6.8
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "CMIMB000523",
@@ -857,7 +867,7 @@
     "lng": -104.3496,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 6.8
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "CMIMB000535",
@@ -945,7 +955,7 @@
     "entidad": "COLIMA",
     "lat": 19.1271,
     "lng": -104.4171,
-    "internet": false,
+    "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
   },
@@ -1020,6 +1030,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "CMIMB000803",
+    "nombre_de_la_unidad": "CENTRO DE SALUD POTRERO GRANDE",
+    "entidad": "COLIMA",
+    "lat": 19.3136,
+    "lng": -104.0881,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
     "clues_imb": "CMIMB000820",
     "nombre_de_la_unidad": "CENTRO DE SALUD EL TERRERO",
     "entidad": "COLIMA",
@@ -1027,7 +1047,17 @@
     "lng": -103.9501,
     "internet": false,
     "consultorios": 1.0,
-    "pct_llenado": 9.1
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "CMIMB000984",
+    "nombre_de_la_unidad": "CENTRO DE SALUD EL SAUCITO",
+    "entidad": "COLIMA",
+    "lat": 18.8658,
+    "lng": -103.8001,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "CMIMB001001",
@@ -1520,6 +1550,26 @@
     "pct_llenado": 93.2
   },
   {
+    "clues_imb": "DFIMB000801",
+    "nombre_de_la_unidad": "C.S.T-III 2 DE OCTUBRE",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.38457,
+    "lng": -99.11746,
+    "internet": true,
+    "consultorios": 3.0,
+    "pct_llenado": 38.6
+  },
+  {
+    "clues_imb": "DFIMB000883",
+    "nombre_de_la_unidad": "C.S.T-I APATLACO",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.3797,
+    "lng": -99.11711,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
     "clues_imb": "DFIMB000982",
     "nombre_de_la_unidad": "C.S.T-III DR. RAFAEL CARRILLO",
     "entidad": "CIUDAD DE MEXICO",
@@ -1687,7 +1737,17 @@
     "lng": -98.9961,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 15.9
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "DFIMB001484",
+    "nombre_de_la_unidad": "C.S.T-II ZAPOTITLA",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.31085,
+    "lng": -99.0362,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 9.1
   },
   {
     "clues_imb": "DFIMB001600",
@@ -1780,6 +1840,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "DFIMB001810",
+    "nombre_de_la_unidad": "C.S. T-II SAN MATEO XALPA",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.227936,
+    "lng": -99.1193819999999,
+    "internet": true,
+    "consultorios": 2.0,
+    "pct_llenado": 3.4
+  },
+  {
     "clues_imb": "DFIMB001945",
     "nombre_de_la_unidad": "C.S.T-III SOLEDAD OROZCO DE ÁVILA CAMACHO",
     "entidad": "CIUDAD DE MEXICO",
@@ -1858,6 +1928,16 @@
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "DFIMB002230",
+    "nombre_de_la_unidad": "C.S.T-III DR. LUIS E. RUÍZ",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.4250219999999,
+    "lng": -99.119812,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 4.5
   },
   {
     "clues_imb": "DFIMB002254",
@@ -8980,6 +9060,16 @@
     "pct_llenado": 96.4
   },
   {
+    "clues_imb": "MSIMB000304",
+    "nombre_de_la_unidad": "CENTRO DE SALUD CUAUHTÉMOC",
+    "entidad": "MORELOS",
+    "lat": 18.8667,
+    "lng": -98.9257,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
     "clues_imb": "MSIMB000321",
     "nombre_de_la_unidad": "CENTRO DE SALUD HERMENEGILDO GALEANA",
     "entidad": "MORELOS",
@@ -9030,6 +9120,16 @@
     "pct_llenado": 100.0
   },
   {
+    "clues_imb": "MSIMB000415",
+    "nombre_de_la_unidad": "CENTRO DE SALUD COL. EMILIANO ZAPATA",
+    "entidad": "MORELOS",
+    "lat": 18.9112,
+    "lng": -99.2035,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
     "clues_imb": "MSIMB000420",
     "nombre_de_la_unidad": "CENTRO DE SALUD LAGUNILLA DEL SALTO",
     "entidad": "MORELOS",
@@ -9055,6 +9155,16 @@
     "entidad": "MORELOS",
     "lat": 18.9264,
     "lng": -99.25047,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "MSIMB000461",
+    "nombre_de_la_unidad": "CENTRO DE SALUD SAN MIGUEL ACAPANTZINGO",
+    "entidad": "MORELOS",
+    "lat": 18.90403,
+    "lng": -99.22239,
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
@@ -9115,6 +9225,16 @@
     "entidad": "MORELOS",
     "lat": 18.969883,
     "lng": -99.20907,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
+    "clues_imb": "MSIMB000531",
+    "nombre_de_la_unidad": "CENTRO DE SALUD ANTONIO BARONA",
+    "entidad": "MORELOS",
+    "lat": 18.9493,
+    "lng": -99.19364,
     "internet": true,
     "consultorios": 1.0,
     "pct_llenado": 100.0
@@ -10847,7 +10967,7 @@
     "lng": -86.8799641009169,
     "internet": true,
     "consultorios": 1.0,
-    "pct_llenado": 70.5
+    "pct_llenado": 79.5
   },
   {
     "clues_imb": "QRIMB001080",
@@ -11937,7 +12057,7 @@
     "lng": -100.972944,
     "internet": true,
     "consultorios": 11.0,
-    "pct_llenado": 37.4
+    "pct_llenado": 58.3
   },
   {
     "clues_imb": "SPIMB000981",
@@ -12280,6 +12400,16 @@
     "pct_llenado": 80.1
   },
   {
+    "clues_imb": "SRIMB001013",
+    "nombre_de_la_unidad": "CENTRO DE SALUD URBANO DR. DOMINGO OLIVARES",
+    "entidad": "SONORA",
+    "lat": 29.086656,
+    "lng": -110.953357,
+    "internet": true,
+    "consultorios": 1.0,
+    "pct_llenado": 100.0
+  },
+  {
     "clues_imb": "SRIMB001025",
     "nombre_de_la_unidad": "CENTRO DE SALUD URBANO LOS NARANJOS",
     "entidad": "SONORA",
@@ -12447,7 +12577,7 @@
     "lng": -111.501237,
     "internet": true,
     "consultorios": 2.0,
-    "pct_llenado": 77.3
+    "pct_llenado": 100.0
   },
   {
     "clues_imb": "SRIMB002343",
