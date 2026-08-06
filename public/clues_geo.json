@@ -1550,6 +1550,16 @@
     "pct_llenado": 93.2
   },
   {
+    "clues_imb": "DFIMB000796",
+    "nombre_de_la_unidad": "C.S.T-III DR. MANUEL PESQUEIRA",
+    "entidad": "CIUDAD DE MEXICO",
+    "lat": 19.39421,
+    "lng": -99.07051,
+    "internet": false,
+    "consultorios": 1.0,
+    "pct_llenado": 20.5
+  },
+  {
     "clues_imb": "DFIMB000801",
     "nombre_de_la_unidad": "C.S.T-III 2 DE OCTUBRE",
     "entidad": "CIUDAD DE MEXICO",
